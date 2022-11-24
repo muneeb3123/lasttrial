@@ -1,0 +1,88 @@
+body{
+    background-color: #eee;
+    font-family: 'Lato' sans-serif;
+}
+#page-wrapper{
+    position: relative;
+}
+nav{
+    font-weight: 400;
+}
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+#hero input[type="submit"]{
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+}
+#features{
+    margin-top: 30px;
+}
+.grid{
+    display: flex;
+}
+#feautures .desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+#how-it-works{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#how-it-works > iframe{
+    max-width: 560px;
+    width: 100%;
+}
+footer > span{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color:#444;
+}
+footer > ul > li{
+    padding: 0 10px;
+}
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+#pricing{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
